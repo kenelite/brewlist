@@ -1,5 +1,6 @@
 aria2
 axel
+bash-completion
 cairo
 cdrtools
 ffmpeg
@@ -13,6 +14,7 @@ git
 glib
 gmp
 gnutls
+go
 gobject-introspection
 graphite2
 guetzli
