@@ -1,3 +1,6 @@
+
+.
+..
 aria2
 axel
 bash-completion
@@ -42,6 +45,7 @@ mpv
 mtr
 ncurses
 nettle
+nginx
 nmap
 oniguruma
 openssl
@@ -58,6 +62,7 @@ readline
 s3fs
 sqlite
 tmux
+tree
 unrar
 watch
 wget
