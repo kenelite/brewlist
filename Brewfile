@@ -1,7 +1,10 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+# SSL/TLS cryptography library
+brew "openssl"
 # Download with resuming and segmented downloading
 brew "aria2"
 # Shell extension to jump to frequently used directories
@@ -40,10 +43,12 @@ brew "findutils", args: ["with-default-names"]
 brew "fish"
 # GNU awk utility
 brew "gawk"
+# Distributed revision control system
+brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
 # C code prettifier
-brew "gnu-indent", args: ["with-default-names"]
+brew "gnu-indent"
 # GNU implementation of the famous stream editor
 brew "gnu-sed", args: ["with-default-names"]
 # GNU version of the tar archiving utility
@@ -112,11 +117,11 @@ brew "wget"
 brew "youtube-dl"
 cask "diffmerge"
 cask "docker"
-cask "iina"
 cask "java"
 cask "keka"
 cask "macdown"
 cask "meld"
+cask "microsoft-remote-desktop-beta"
 cask "mounty"
 cask "prince"
 cask "spectacle"

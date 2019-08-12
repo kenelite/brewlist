@@ -1,6 +1,6 @@
 # Kenelite Brew List
 
-    brew list
+    brew bundle dump --all --describe --file=Brewfile
 
 
 
